@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="features.runTest" duration-ms="63335" started-at="2016-12-23T20:44:22Z" finished-at="2016-12-23T20:45:25Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:features.runTest@50f8360d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="63335" started-at="2016-12-23T20:44:22Z" finished-at="2016-12-23T20:45:25Z">
+      <class name="features.runTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:features.runTest@50f8360d]" name="setUpClass" is-config="true" duration-ms="210" started-at="2016-12-23T17:44:22Z" finished-at="2016-12-23T17:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:features.runTest@50f8360d]" name="feature" duration-ms="63033" started-at="2016-12-23T17:44:22Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2016-12-23T17:45:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Cases for SignUp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:features.runTest@50f8360d]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2016-12-23T17:45:25Z" finished-at="2016-12-23T17:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- features.runTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- features.runTest -->
+</testng-results>

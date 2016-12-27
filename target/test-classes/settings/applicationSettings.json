@@ -1,0 +1,12 @@
+{
+  "applications":[
+    {
+      "applicationName" : "Browser",
+      "applicationValue" : "Browser"
+    },
+    {
+      "applicationName" : "WendyWilliams",
+      "applicationValue" : "Wendy_1.0.17_H_PROD.apk"
+    }
+  ]
+}

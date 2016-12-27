@@ -1,0 +1,135 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Successful SignUp",
+        "description": "",
+        "id": "test-cases-for-signup;successful-signup",
+        "after": [
+          {
+            "result": {
+              "duration": 682513383,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20462227753,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The device is setted and the application called \"WendyWilliams\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WendyWilliams",
+                  "offset": 49
+                }
+              ],
+              "location": "DeviceSteps.openDevice(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1012227160,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clicks in signup on the login page",
+            "match": {
+              "location": "LoginSteps.clickInSignUp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1786099358,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicks in cancel button on the popup displayed in signup page",
+            "match": {
+              "location": "SignUpSteps.clickOnCancelButtonPopUp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 34901480691,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Completes the form for signup",
+            "match": {
+              "location": "SignUpSteps.completeForm()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 984653037,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clicks on Create Account button",
+            "match": {
+              "location": "SignUpSteps.clickOnCreateAccount()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5288081777,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verifies that the message for signup is correct",
+            "match": {
+              "location": "SignUpSteps.verifiesMessageIsOk()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3170298864,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Clicks on OK button in signup page",
+            "match": {
+              "location": "SignUpSteps.clickOnOkButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@successfulSignUp"
+          }
+        ]
+      }
+    ],
+    "name": "Test Cases for SignUp",
+    "description": "",
+    "id": "test-cases-for-signup",
+    "keyword": "Feature",
+    "uri": "features/SignUp.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@signUpRegression"
+      }
+    ]
+  }
+]
