@@ -56,7 +56,10 @@ If you need assistance with something, please send me an email at maximiliano.pi
 
 ## More Information :
 
-If you need more information about this project and about Appium, we have some information in spanish in google drive. Please click on this link : https://docs.google.com/a/abstracta.com.uy/document/d/1VfNfuVLTsXr0kYzxi4o2epM-wtMbpFc5hkCHIuS9Lmc/edit?usp=sharing
+If you need more information about this project and about Appium, we have some information in spanish for you:
+
+* [User Manual](src/test/resource/documentation/AppiumTests-Guiabasicadelproyecto.pdf)
+* [Information about Appium](src/test/resource/documentation/Appium-en-windows-android.pdf)
 
 Thank you!
 Enjoy the project!
