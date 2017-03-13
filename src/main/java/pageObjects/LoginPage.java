@@ -1,5 +1,6 @@
 package pageObjects;
 
+import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage extends AbstractPageObject{
     @FindBy(id = "com.wendydigital:id/tvSignUp") private WebElement signupElement;
 
-    public LoginPage(WebDriver driver){
+    public LoginPage(AppiumDriver driver){
         super(driver);
     }
 

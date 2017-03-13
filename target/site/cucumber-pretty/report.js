@@ -71,53 +71,53 @@ formatter.match({
   "location": "DeviceSteps.openDevice(String)"
 });
 formatter.result({
-  "duration": 18346400000,
+  "duration": 18206452706,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clickInSignUp()"
 });
 formatter.result({
-  "duration": 818527605,
+  "duration": 1118290661,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpSteps.clickOnCancelButtonPopUp()"
 });
 formatter.result({
-  "duration": 1468645926,
+  "duration": 1807987601,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpSteps.completeForm()"
 });
 formatter.result({
-  "duration": 33877760790,
+  "duration": 34077282432,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpSteps.clickOnCreateAccount()"
 });
 formatter.result({
-  "duration": 905916444,
+  "duration": 822705243,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpSteps.verifiesMessageIsOk()"
 });
 formatter.result({
-  "duration": 7075121382,
+  "duration": 6876078124,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpSteps.clickOnOkButton()"
 });
 formatter.result({
-  "duration": 3138577778,
+  "duration": 3133057290,
   "status": "passed"
 });
 formatter.after({
-  "duration": 558131753,
+  "duration": 497881678,
   "status": "passed"
 });
 });

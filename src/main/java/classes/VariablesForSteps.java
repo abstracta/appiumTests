@@ -1,19 +1,20 @@
 package classes;
 
+import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.WebDriver;
 
 /**
  * Created by USER on 21-Dec-16.
  */
 public class VariablesForSteps {
-    static WebDriver driver;
+    static AppiumDriver driver;
     static Utils utils = new Utils();
 
-    public WebDriver getDriver() {
+    public AppiumDriver getDriver() {
         return driver;
     }
 
-    public void setDriver(WebDriver driver) {
+    public void setDriver(AppiumDriver driver) {
         this.driver = driver;
     }
 

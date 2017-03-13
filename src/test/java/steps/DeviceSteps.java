@@ -4,6 +4,7 @@ import classes.DeviceHandler;
 import classes.VariablesForSteps;
 import com.google.gson.JsonObject;
 import cucumber.api.java.en.Given;
+import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -22,7 +23,7 @@ public class DeviceSteps extends VariablesForSteps{
 
             System.out.println("Setting environment...");
             System.out.println("Giving time to start the application...");
-            WebDriver driver = deviceHandler.CreateDevice();
+            AppiumDriver driver = deviceHandler.CreateDevice();
             setDriver(driver);
             Thread.sleep(10000);
 

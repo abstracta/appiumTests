@@ -1,5 +1,8 @@
 package classes;
 
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -63,7 +66,9 @@ public class DeviceHandler {
         this.browserName = browserName;
     }
 
-    public WebDriver CreateDevice() throws Exception {
+    public AppiumDriver CreateDevice() throws Exception {
+        AppiumDriver driver = null;
+
         try {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("deviceName", getDeviceName());
@@ -75,9 +80,9 @@ public class DeviceHandler {
             if(getBrowserName() != null)
                 capabilities.setCapability(CapabilityType.BROWSER_NAME, getBrowserName());
 
-            WebDriver driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-            driver.manage().timeouts().implicitlyWait(80, TimeUnit.SECONDS);
+            driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
+            driver.manage().timeouts().implicitlyWait(80, TimeUnit.SECONDS);
             return driver;
         }catch(Exception ex){
             throw new Exception("Error creating device : " + ex.getMessage());

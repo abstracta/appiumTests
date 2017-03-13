@@ -1,6 +1,7 @@
 package pageObjects;
 
 import classes.GenerateData;
+import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,7 +23,7 @@ public class SignUpPage extends AbstractPageObject {
     @FindBy(name = "DONE") private WebElement doneCameraButton;
     @FindBy(id = "com.wendydigital:id/btnCreateAccount") private WebElement createAccountButton;
 
-    public SignUpPage(WebDriver driver){
+    public SignUpPage(AppiumDriver driver){
         super(driver);
     }
 
